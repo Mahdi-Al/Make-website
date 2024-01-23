@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,55 +6,54 @@
 }
 body {
     background-color: #000000;
-}
-.navbar {
-    height: 90px;
-    background-color: #010;
+ }
+ .navbar {
+    height: 80px;
+    background-color: rgb(0, 29, 0);
     padding: 2px 30px;
-       /* display: flex; */
-    /* justify-content: space-between; */
-   /* align-items: center;   */
-   position: sticky;
-}
-/* .menu {
       display: flex;
- justify-content: space-between;
-align-items: center; 
-} */
-.menu-links {
-    /* display: flex; */
-    gap: 24px;
-    border-right: 1px solid #c9c1c1;
-    padding-inline: 20px;
-      display: flex; 
     justify-content: center;
-    /* flex-wrap: wrap; */
-   /* align-items: center;  */
-   
-}
-a {
-    text-decoration: none;
-    /* color: red; */
-}
+    flex-wrap: wrap;
+  align-items: center;
+  align-content: center;  
+ }
 .menu-links  a  {
     font-weight: 700;
     color: #999999;
     padding: 8px 16px;
-    
+    text-decoration: none;
 }
 .menu-links a:hover {
     color: red;
 }
 .header-1 {
+    text-align: center;
     color: red;
-    display: inline-block;
-    margin-left: 40%;
+    display: block;
+}
+.header-2 {
+    text-align: center;
+    color: red;
 }
 .logo {
-    width: 7%;
-    height: 7%;
-     /* position: relative;
-    bottom: 3.7rem; */
-   /* right: 10rem; */
-
+    display: inline-block;
+    width: 15%;
+    height: 20%;
+ position: absolute;
+bottom: 80%; 
+}
+p{
+    color: rgb(31, 232, 71);
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Caveat', cursive;
+}
+details{
+    color: rgb(31, 232, 71);
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Caveat', cursive;
+}
+summary {
+    color: red;  
 }
