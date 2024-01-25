@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@ body {
     flex-wrap: wrap;
   align-items: center;
   align-content: center;  
+  position: sticky;
  }
 .menu-links  a  {
     font-weight: 700;
@@ -24,16 +26,20 @@ body {
     text-decoration: none;
 }
 .menu-links a:hover {
-    color: red;
+    color: rgb(224, 6, 224);
 }
 .header-1 {
     text-align: center;
     color: red;
     display: block;
+    font-family: 'Single Day', cursive;
+    font-size: xxx-large;
 }
 .header-2 {
     text-align: center;
     color: red;
+    font-family: 'Single Day', cursive;
+    font-size: xx-large;
 }
 .logo {
     display: inline-block;
@@ -56,4 +62,18 @@ details{
 }
 summary {
     color: red;  
+}
+table{
+    border-color: palevioletred;
+    display: inline-block;
+    margin-left: 40vw;
+}
+tr{
+    color: red;
+}
+h3{
+    text-align: center;
+    color: red;
+    font-family: 'Single Day', cursive;
+    font-size: x-large;
 }
