@@ -5,22 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log-in</title>
     <link rel="stylesheet" href="style-2.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
-    <!-- <header>
-        <nav>
-            <div>
-                <a href="Index-1.html" target="_blank">Home</a>
-                <a href="#" target="_blank">Accessories</a>
-                <a href="#" target="_blank">Clothes</a>
-                <a href="./Index-2.html" target="_blank">Log-in</a>
-            </div>
-        </nav>
-    </header> -->
+    <header>
+      <!-- this web page is a log-in web page ans it doesn't need to header  -->
+    </header>
     <main>
-    section>
+      <form>
+        <h2>Login Here</h2>
+     <section class="inputbox">
+      <ion-icon class="mail-outline"></ion-icon>
+      <label for="email">Email</label>
+        <input type="email" name="email" required placeholder="Email">
+        <span class="input-icon"><i class="fa fa-envelope"></i></span>
 
+     </section>
+
+     <section class="inputbox">
+      <label for="password">password</label> 
+      <input type="password" name="password" required placeholder="password">
+         <span class="input-icon"><i class="fa fa-lock"></i></span>
+     </section>
+     <button type="submit">Log in</button>
+       <div class="create">
+     <p>Don't have an account ?
+        <a href="#">create one now!</a>
+     </p>
+       </div>
+       </form>
     </main>
-    
+    <footer>  <!-- this web page is a log-in web page ans it doesn't need to footer  --> </footer>
 </body>
 </html>
