@@ -1,0 +1,13 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+}
+html { 
+    background: url(./image/skull-skull-skeleton-motorcycle-biker-gang-mens-t-shirt.jpg) no-repeat center center fixed; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: black;
+  } 
+  
