@@ -17,7 +17,6 @@ body {
     flex-wrap: wrap;
   align-items: center;
   align-content: center;  
-  position: sticky;
  }
 .menu-links  a  {
     font-weight: 700;

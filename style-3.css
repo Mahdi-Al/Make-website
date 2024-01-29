@@ -1,5 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+html { 
+    background: url(./image/skull-skull-skeleton-motorcycle-biker-gang-mens-t-shirt.jpg) no-repeat center center fixed; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: black;
+  } 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+header{
+ width: 100vw;
+ height: 4vh;
+ background-color: rgb(0, 29, 0);
+ position: sticky;
+ top: 0;
+}
+nav{
+    width: 100vw;
+ height: 9vh; 
+ background-color: rgb(0, 29, 0);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 0.5rem;
+ /* flex-wrap: wrap; */
+ position: sticky;
+ top: 0;
+}
+nav a{
+    font-weight: 700;
+    color: #999999;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(138, 43, 226);
+    padding-top: 1rem;
+}
+.header-1 {
+    text-align: center;
+    color: transparent;
+    display: block;
+    font-family: 'Single Day', cursive;
+    font-size: xxx-large;
+    -webkit-text-stroke: 1px red;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    
+}
+.child1 {
+    width:15vw;
+    height: 25vh;
+    background-color: #fff;
+    margin-top: 5rem;
 }
