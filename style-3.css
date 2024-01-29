@@ -17,6 +17,8 @@ header{
  background-color: rgb(0, 29, 0);
  position: sticky;
  top: 0;
+ z-index: 2;
+
 }
 nav{
     width: 100vw;
@@ -42,22 +44,76 @@ nav a:hover{
 }
 .header-1 {
     text-align: center;
-    color: transparent;
     display: block;
     font-family: 'Single Day', cursive;
     font-size: xxx-large;
     -webkit-text-stroke: 1px red;
 }
-section{
+.sec1{
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
     background-color: transparent;
-    backdrop-filter: blur(10px);
-    
-}
+    backdrop-filter: blur(5px);
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
 .child1 {
-    width:15vw;
-    height: 25vh;
+    width: 20vw;
+    height: 50vh;
     background-color: #fff;
-    margin-top: 5rem;
+}
+.child2 {
+    width:20vw;
+    height: 50vh;
+    background-color: #fff;
+}
+.child3 {
+    width: 20vw;
+    height: 50vh;
+    background-color: #fff;
+}
+.child4 {
+    width: 20vw;
+    height: 50vh;
+    background-color: #fff;
+}
+.child5 {
+    width: 20vw;
+    height: 50vh;
+    background-color: #fff;
+    align-self: flex-end;
+
+}
+.child6 {
+    width: 20vw;
+    height: 50vh;
+    background-color: #fff;
+}
+.child7 {
+    width: 20vw;
+    height: 50vh;
+    background-color: #fff;
+}
+
+    ul{
+     margin-top: 15vh;
+    margin-left: 35vw;
+    width: 30vw;
+    height: 25vh;
+    color: rgb(31, 232, 71);
+    border-color: blue;
+    border-style: solid;
+}
+
+details{
+    color: rgb(31, 232, 71);
+    margin-top: 5em;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Caveat', cursive;
+}
+summary {
+    color: red;  
 }
