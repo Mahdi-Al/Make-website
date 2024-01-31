@@ -238,16 +238,77 @@ align-items: flex-end;
   background-color: #a7a5a5;
   }
   div >span  {
- color: #285AEB;
+    color: #000000;
   }
  h3{
- color: #d6249f;
+ color: rgb(4, 116, 26);
+ text-align: center;
  }
  h4 {
-  color: #e20000;
+  color: rgb(138, 43, 226);
  }
 div >button {
-  width: 80%;
+    height: 12%;
+  width: 70%;
+  border-radius: 10px;
+  background-color: olivedrab;
+
 }
+div >button:hover{
+    height: 12%;
+  width: 65%;
+  border-radius: 10px;
+  background-color: rgb(31, 232, 71);
+}
+div >a{
+    margin-left: 7%;
+ text-decoration: none;
+ color: white;
+}
+div >a:hover{
+ color: red;
+}
+@media (Max-width: 769px) {
+    section > div {
+        overflow: auto;
+    }
+}
+@media (Max-width: 379px) {
+    section > div {
+        overflow: auto;
+    }
+        div >button {
+            height: 12%;
+          width: 80%;
+          border-radius: 10px;
+          background-color: olivedrab;
+        
+        }
+        div >button:hover{
+            height: 12%;
+          width: 80%;
+          border-radius: 10px;
+          background-color: rgb(31, 232, 71);
+        }
+    }
+    @media (Max-width: 320px) {
+        section > div {
+            overflow: auto;
+        }
+            div >button {
+                height: 12%;
+              width: 90%;
+              border-radius: 10px;
+              background-color: olivedrab;
+            
+            }
+            div >button:hover{
+                height: 12%;
+              width: 90%;
+              border-radius: 10px;
+              background-color: rgb(31, 232, 71);
+            }
+        }
+
 
 

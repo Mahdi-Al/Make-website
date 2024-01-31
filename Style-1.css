@@ -142,3 +142,21 @@ footer{
    justify-content: space-evenly;
    align-content: center;
 }
+@media (Max-width: 466px) {
+  .logo{
+    display: none;
+  position: hidden;
+}
+}
+@media (Min-width: 426px) {
+ .navbar {
+  height: 80px;
+  background-color: rgb(0, 29, 0);
+  padding: 2px 30px;
+    display: flex;
+  justify-content: center;
+align-items: center;
+align-content: center;  
+  flex-wrap: nowrap;
+ }
+}

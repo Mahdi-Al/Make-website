@@ -4,20 +4,25 @@
     margin: 0;
     padding:0 ;
 }
-h2{
-    color: red;
-    text-align: center;
-}
 html { 
     background: url(./image/skull-skull-skeleton-motorcycle-biker-gang-mens-t-shirt.jpg) no-repeat center center fixed; 
     -moz-background-size: cover;
     -o-background-size: cover;
     background-color: black;
   } 
+  main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+h2{
+    color: red;
+    text-align: center;
+}
   form{
-    position: relative;
-     top: 22em;
-     left: 34em;
     width: 300px;
     height:250px;
    background-color: transparent;
@@ -60,5 +65,5 @@ button{
     border-radius: 20px;
     color: white;
     background-color: rgb(248, 98, 44);
-
 }
+
